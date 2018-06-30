@@ -8,6 +8,7 @@ $(document).ready(function(){
         $('#dogs').removeClass('invisible');
     })
     $('#collapseTwo').click(function(){
+        console.error('#collapseTwo');
         $('#goats').removeClass('invisible');
     })
     $('#collapseThree').click(function(){
