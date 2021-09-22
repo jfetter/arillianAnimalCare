@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da187447-8857-443c-95d6-08647a28cc9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/bloomRoom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/chimneyOffChimneya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cleanTowels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/doggieDalies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/eggsBehindGoatFoodCan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/growRoom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/holeInBarnFloor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/outdoorOverheadLIghts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sawLogs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/theGauntlet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/washHandsInTub.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hughey1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hughey2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plantNutrients.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zairCompressor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zairCompressor2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zbedroomGrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zbubbler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zgoatWaterSpigot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zpantryGrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zspigotForWatering.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zsquirt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zsquirt2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ztreesToWater.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zwifiinfo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/projector.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/projector.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wifi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wifi.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +68,15 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -81,6 +85,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,6 +94,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,25 +111,28 @@
       <workItem from="1575579088073" duration="1316000" />
       <workItem from="1591821790877" duration="6252000" />
       <workItem from="1593131866488" duration="1726000" />
-      <workItem from="1615505484968" duration="4985000" />
+      <workItem from="1615505484968" duration="5453000" />
+      <workItem from="1632256902282" duration="8591000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup" timestamp="1615511150025">
