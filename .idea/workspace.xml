@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da187447-8857-443c-95d6-08647a28cc9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/hughey1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hughey2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plantNutrients.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zairCompressor1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zairCompressor2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zbedroomGrow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zbubbler.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zgoatWaterSpigot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zpantryGrow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zspigotForWatering.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zsquirt1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zsquirt2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ztreesToWater.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zwifiinfo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zDogFood1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zDogFood2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zGoatSpigot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zPantryBloom.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/zbubbler.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/zbubbler.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +75,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -112,7 +104,8 @@
       <workItem from="1591821790877" duration="6252000" />
       <workItem from="1593131866488" duration="1726000" />
       <workItem from="1615505484968" duration="5453000" />
-      <workItem from="1632256902282" duration="8591000" />
+      <workItem from="1632256902282" duration="11205000" />
+      <workItem from="1632314305568" duration="1605000" />
     </task>
     <servers />
   </component>
