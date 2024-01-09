@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da187447-8857-443c-95d6-08647a28cc9e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/FlingFoodEverywhere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/addSunflowerSeeds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/brickDoorClose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/frozVegBoilWater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/mixFreshAndDryFood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/propUnPropOutterDoor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/threeMugsOfFeed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Jan2024/watchYourHeadByCoopDoor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +90,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/Jan2024" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/favicons" />
       <recent name="$PROJECT_DIR$" />
@@ -107,6 +117,8 @@
       <workItem from="1632256902282" duration="11205000" />
       <workItem from="1632314305568" duration="1605000" />
       <workItem from="1682083061078" duration="2585000" />
+      <workItem from="1688305783139" duration="501000" />
+      <workItem from="1704810089943" duration="2590000" />
     </task>
     <servers />
   </component>
