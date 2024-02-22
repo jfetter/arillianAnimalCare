@@ -42,6 +42,15 @@
             .when("/hawatti", {
                 templateUrl : "landingPages/hawatti.html"
             })
+            .when("/noBarE", {
+                templateUrl : "landingPages/noBarE.html"
+            })
+            .when("/poolDip", {
+                templateUrl : "landingPages/poolDip.html"
+            })
+            .when("/cheers", {
+                templateUrl : "landingPages/cheers.html"
+            })
             .when("/predatorHead", {
                 templateUrl : "landingPages/predatorHead.html"
             });
