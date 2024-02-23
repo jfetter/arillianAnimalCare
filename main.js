@@ -31,7 +31,7 @@
                 templateUrl : "landingPages/jammers.html"
             })
             .when("/hueyKabluey", {
-                templateUrl : "landingPages/hueyKabluey.html"
+                templateUrl : "landingPages/HueyKabluey.html"
             })
             .when("/bellyFlops", {
                 templateUrl : "landingPages/bellyFlops.html"
