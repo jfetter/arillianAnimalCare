@@ -9,6 +9,9 @@
             .when("/", {
                 templateUrl : "landingPages/main.html"
             })
+            .when("/links", {
+                templateUrl : "landingPages/links.html"
+            })
             .when("/boowalla", {
                 templateUrl : "landingPages/boowalla.html"
             })
