@@ -20,6 +20,21 @@ app.config(function($routeProvider) {
         .when("/pets", {
             templateUrl : "landingPages/animalCare.html"
         })
+        .when("/about", {
+            templateUrl : "landingPages/about.html"
+        })
+        .when("/books", {
+            templateUrl : "landingPages/books.html"
+        })
+        .when("/comics", {
+            templateUrl : "landingPages/comics.html"
+        })
+        .when("/recipes", {
+            templateUrl : "landingPages/recipes.html"
+        })
+        .when("/merch", {
+            templateUrl : "landingPages/merch.html"
+        })
 });
 $(document).ready(function(){
     console.log("document ready")
