@@ -1,0 +1,69 @@
+
+<div class="container" ng-controller="blogController">
+    <div class="row">
+        <div class="col-xs-8">
+            <input class="form-control mt-5" id="blogSearch" ng-keyup="searchBlogs(term)" ng-model="term" type="text" placeholder="Search Blog Entries...">
+        </div>
+
+        <div class="col-xs-4 mt-5 text-white text-right" ng-click="toggleSortOldFirst(sortOldFirst)">
+            Sort:
+            <button class="btn btn-primary">
+
+                <span class="ml-2"  ng-if="sortOldFirst">Old to New</span><span class="ml-2"  ng-if="!sortOldFirst">New to Old</span>
+            </button>
+        </div>
+    </div>
+    <br>
+    <div class="panel" id="blogTable">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-12">
+
+                </div>
+            </div>
+        </div>
+        <div class="panel-body" style="overflow: scroll;">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="accordion">
+                        <div class="card" ng-repeat="entry in blogEntries">
+                            <div class="card-header"  ng-click="entry.expanded = !entry.expanded">
+                                <h5 class="mb-0">
+                                    <div class="row blog-header">
+                                         <div class="col-xs-6">
+                                             {{entry.entry_subject}}
+                                         </div>
+                                        <div class="col-xs-6 pull-right text-right">
+                                            {{entry.entry_date}}
+                                         </div>
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class={{entry.expanded?'show':'hide'}} aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h3 class="text-subtle">{{entry.entry_subject}}</h3>
+                                        </div>
+                                        <div class="col-xs-12" ng-repeat="paragraph in entry.entry_paragraphs">
+                                            <p  ng-if="!paragraph.bold" style="margin-left:25px;">
+                                                {{paragraph.text}}
+                                            </p>
+                                            <b ng-if="paragraph.bold">
+                                                {{paragraph.text}}
+                                            </b>
+                                            <br>
+                                        </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
