@@ -5,49 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da187447-8857-443c-95d6-08647a28cc9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/backCoverUnfet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/beaker9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bookSignUnfet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/eyesAcrossTheSkies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontCoverUnfet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/Sunflower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/cactusSky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/chickenSunrise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/chokeRise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/chokeSky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/dogsPool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/goatsLeaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/prettyRadish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/sammySky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/tallFlowers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/headerPictures/waterGarden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hyperspear1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hyperspear2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hyperspear3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/firepit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/goatAirplane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/hueyXena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/landingPages/pictures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/recipes/pickledonions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landingPages/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landingPages/recipes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/the_beak_that_stole_the_golden_egg.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingPages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingPages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingPages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingPages/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landingPages/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingPages/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingPages/comics.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingPages/comics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingPages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingPages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landingPages/pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingPages/pictures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,11 +101,11 @@
       <recent name="$PROJECT_DIR$/landingPages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/recipes" />
       <recent name="$PROJECT_DIR$/assets/pictures" />
       <recent name="$PROJECT_DIR$/assets/headerPictures" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/landingPages" />
-      <recent name="$PROJECT_DIR$/assets/artImissUchoke" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -171,7 +134,7 @@
       <workItem from="1708352814652" duration="2000" />
       <workItem from="1708352965994" duration="17724000" />
       <workItem from="1721334141642" duration="606000" />
-      <workItem from="1721336599175" duration="39885000" />
+      <workItem from="1721336599175" duration="42471000" />
     </task>
     <servers />
   </component>

@@ -53,6 +53,46 @@ app.config(function($routeProvider) {
             caption: "Huey Loves Xexe bear!"
         }
     ];
+}).controller('recipeController', function( $scope){
+    $scope.recipes = [
+        {
+            name: "pickled onions",
+            pic: "pickledonions.png",
+            ingredients: [
+                "1 onion",
+                "3/4 cup beet juice",
+                "3/4 cup white vinegar",
+                "1 tsp dry mustard seed",
+                "1/2 tbsp salt",
+                "3/8 cup white sugar",
+                "1 spring fresh rosemary"
+            ],
+            steps: [
+                "Slice the onion into thin rings (I used a medium yellow onion, but I got this from a recipe that called for purple onion so I suspect any bulbous onion is fine)",
+                "put the onion slices and all other ingredients into a sterile mason jar",
+                "seal the jar and shake until all sugar and salt are dissolved",
+                "leave in fridge for at least three days to marinate"],
+            notes: "great on sandwiches, salads or rice"
+        }
+    ];
+
+    $scope.searchRecipes = function(term){
+
+    };
+}).controller('projectController', function( $scope){
+    $scope.recipes = [
+        {
+            name: "pond",
+            phases: [
+                {
+                    pics: [],
+                    tools: [],
+                    materials: [],
+                    text: ""
+                }
+            ]
+        }
+    ];
 }).controller('blogController', function( $scope){
     $scope.sortOldFirst = false;
     $scope.blogEntriesRaw = [
