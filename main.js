@@ -28,11 +28,32 @@ app.config(function($routeProvider) {
         .when("/blog", {
             templateUrl : "landingPages/blog.html"
         })
+        .when("/pictures", {
+            templateUrl : "landingPages/pictures.html"
+        })
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
         })
+}).controller('mainController', function( $scope){
+    $scope.headerPicFiles = [
+        "chickenSunrise.png",
+        "chokeSky.png",
+        "waterGarden.png",
+        "dogsPool.png",
+        "sammySky.png",
+        "dogWedding.png",
+        "goatsLeaf.png",
+        "Sunflower.png",
+        "cactusSky.png"
+    ];
+}).controller('pictureController', function( $scope){
+    $scope.pictures = [
+        {
+            file: "hueyXena.png",
+            caption: "Huey Loves Xexe bear!"
+        }
+    ];
 }).controller('blogController', function( $scope){
-
     $scope.sortOldFirst = false;
     $scope.blogEntriesRaw = [
         {
@@ -67,7 +88,6 @@ app.config(function($routeProvider) {
         }
     ]
 
-
     $scope.expandTopEntry = function(a){
         if ($scope.sortOldFirst && a.entry_number === 1 ||  !$scope.sortOldFirst && a.entry_number === $scope.blogEntriesRaw.length){
             a.expanded = true
@@ -89,8 +109,6 @@ app.config(function($routeProvider) {
         });
     };
 
-
-
     $scope.searchBlogs = function(term){
         if (term && term.toLowerCase){
             let lowTerm = term.toLowerCase();
@@ -107,7 +125,38 @@ app.config(function($routeProvider) {
         $scope.blogEntries = $scope.sortBlogList();
     }
     $scope.init();
-})
+}).controller('booksController', function( $scope){
+        $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "bookSignUnfet.png" ];
+        $scope.hyperspear_display_pages = ["hyperspear1.png", "hyperspear2.png", "hyperspear3.png" ];
+
+        $scope.setNextDisplayPage = function(book){
+            var pagesToUse = $scope.unfettered_display_pages;
+            var displayPage = $scope.unfettered_display_page||"";
+            var currentIndex;
+            var nextPage;
+            switch(book){
+               case 'hyperspear':
+                   pagesToUse = $scope.hyperspear_display_pages;
+                   displayPage = $scope.hyperspear_display_page||"";
+                   currentIndex = pagesToUse.indexOf(displayPage);
+                   nextPage = currentIndex +1 <= ($scope.hyperspear_display_pages.length -1) ? $scope.hyperspear_display_pages[currentIndex +1] : $scope.hyperspear_display_pages[0];
+                   $scope.hyperspear_display_page = nextPage;
+                   break;
+               default:
+                currentIndex = pagesToUse.indexOf(displayPage);
+                nextPage = currentIndex +1 <= ($scope.unfettered_display_pages.length -1) ? $scope.unfettered_display_pages[currentIndex +1] : $scope.unfettered_display_pages[0];
+                $scope.unfettered_display_page = nextPage;
+           }
+
+        }
+
+
+        $scope.init = function(){
+            $scope.setNextDisplayPage();
+            $scope.setNextDisplayPage('hyperspear');
+        }
+        $scope.init();
+    })
 $(document).ready(function(){
     console.log("document ready")
 

@@ -1,31 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-
-
-
-<div class="container">
-    <div class="row ">
-        <div class="col-xs-12  text-center mb-2">
-            <img src="./assets/sunset1.png" style="height: 300px;">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h4>
-                <span class="glyphicon glyphicon-leaf text-success"></span>
-                <b class="text-white">Arillian Farm - an Eggcellent place to be!</b>
-                <span class="glyphicon glyphicon-leaf text-success icon-flipped"></span>
-            </h4>
-        </div>
+<div class="row" ng-controller="mainController" style="margin-left:-20em; width:155%">
+    <img ng-if="headerPicFiles && headerPicFiles.length" ng-repeat="pic in headerPicFiles track by $index" src="./assets/headerPictures/{{pic}}" style="height: 250px;">
+    <div class="col-xs-12 text-center">
+        <h3>
+            <b class="text-white" style="margin-right: 60px;">Arillian Farm - an Eggcellent place to be!</b>
+        </h3>
     </div>
 </div>
 
-
-</body>
-</html>

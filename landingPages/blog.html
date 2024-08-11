@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div id="accordion">
-                        <div class="card" ng-repeat="entry in blogEntries">
+                        <div class="card" ng-repeat="entry in blogEntries track by $index">
                             <div class="card-header"  ng-click="entry.expanded = !entry.expanded">
                                 <h5 class="mb-0">
                                     <div class="row blog-header">
@@ -46,7 +46,7 @@
                                         <div class="col-xs-12">
                                             <h3 class="text-subtle">{{entry.entry_subject}}</h3>
                                         </div>
-                                        <div class="col-xs-12" ng-repeat="paragraph in entry.entry_paragraphs">
+                                        <div class="col-xs-12" ng-repeat="paragraph in entry.entry_paragraphs track by $index">
                                             <p  ng-if="!paragraph.bold" style="margin-left:25px;">
                                                 {{paragraph.text}}
                                             </p>

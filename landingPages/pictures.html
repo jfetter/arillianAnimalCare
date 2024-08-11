@@ -1,0 +1,10 @@
+<div ng-controller="pictureController" class="container">
+  <div class="row " ng-repeat="pic in pictures track by $index">
+    <div class="col-xs-12 text-center">
+      <img  src="./assets/pictures/{{pic.file}}" style="height: 300px;">
+    </div>
+    <div class="col-xs-12 text-center">
+      <b4 class="text-muted" ng-if="pic.caption">{{pic.caption}}</b4>
+    </div>
+  </div>
+</div>
