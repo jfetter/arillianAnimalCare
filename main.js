@@ -1,7 +1,10 @@
 'use strict';
 
 let app = angular.module("myApp", ["ngRoute"]);
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $sceDelegateProvider) {
+    //allow all videos from Youtube to display
+    $sceDelegateProvider.resourceUrlWhitelist(['self', '*://www.youtube.com/**']);
+
     console.log("app loaded "+ Date.now())
     $routeProvider
         .when("/", {
@@ -28,6 +31,9 @@ app.config(function($routeProvider) {
         .when("/blog", {
             templateUrl : "landingPages/blog.html"
         })
+        .when("/videos", {
+            templateUrl : "landingPages/videos.html"
+        })
         .when("/pictures", {
             templateUrl : "landingPages/pictures.html"
         })
@@ -41,11 +47,28 @@ app.config(function($routeProvider) {
         "waterGarden.png",
         "dogsPool.png",
         "sammySky.png",
-        "dogWedding.png",
+        "artichokeBundle.png",
         "goatsLeaf.png",
         "Sunflower.png",
         "cactusSky.png"
     ];
+
+}).controller('videoController', function( $scope){
+// The URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID (instead of /short or whatever).
+        $scope.videos = [
+        {
+            youtubeID: "3VR7YxoKQp8",
+            title: "McGoats has Zoomies"
+        },
+        {
+            youtubeID: "NGgsXWeCsgI",
+            title: "Totes is king of the Coop"
+        }
+    ];
+
+    $scope.getIframeSrc = function (videoId) {
+        return 'https://www.youtube.com/embed/' + videoId;
+    };
 }).controller('pictureController', function( $scope){
     $scope.pictures = [
         {
@@ -68,7 +91,7 @@ app.config(function($routeProvider) {
                 "1 spring fresh rosemary"
             ],
             steps: [
-                "Slice the onion into thin rings (I used a medium yellow onion, but I got this from a recipe that called for purple onion so I suspect any bulbous onion is fine)",
+                "Slice the onion into thin rings (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine)",
                 "put the onion slices and all other ingredients into a sterile mason jar",
                 "seal the jar and shake until all sugar and salt are dissolved",
                 "leave in fridge for at least three days to marinate"],

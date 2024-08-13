@@ -1,0 +1,10 @@
+<div class="row text-center p-3 mb-5" ng-controller="videoController">
+    <div class="col-xs-12" ng-repeat="video in videos">
+        <h3 class="text-white">{{video.title}}</h3>
+        <iframe width="720"
+                height="500"
+                autoplay="0"
+                ng-src="{{getIframeSrc(video.youtubeID)}}">
+        </iframe>
+    </div>
+</div>

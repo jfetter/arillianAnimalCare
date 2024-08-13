@@ -1,5 +1,5 @@
 <div class="row" ng-controller="mainController" style="margin-left:-20em; width:155%">
-    <img ng-if="headerPicFiles && headerPicFiles.length" ng-repeat="pic in headerPicFiles track by $index" src="./assets/headerPictures/{{pic}}" style="height: 250px;">
+    <img ng-if="headerPicFiles && headerPicFiles.length" ng-repeat="pic in headerPicFiles track by $index" ng-src="./assets/headerPictures/{{pic}}" style="height: 250px;">
     <div class="col-xs-12 text-center">
         <h3>
             <b class="text-white" style="margin-right: 60px;">Arillian Farm - an Eggcellent place to be!</b>

@@ -88,6 +88,37 @@ body{
     cursor: pointer;
 }
 
+.clock-column {
+    display: inline-block;
+    width: calc(100% / 7);
+    margin: 0 auto;
+}
+
+.dot:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.dot {
+    position: relative;
+    max-width: 100%;
+    margin: 0.5rem;
+    background-color: firebrick;
+    border-color: firebrick;
+    background-size: 100% auto;
+    border-radius: 50%;
+    border-style: solid;
+    height: calc(100vh / 5);
+    width: calc(100vh / 5);
+}
+
+.off {
+    background-color: green;
+    opacity: 0.1;
+}
+
+
 
 @media (max-width: 767px) {
     .nav{
